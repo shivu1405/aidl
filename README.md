@@ -109,6 +109,22 @@ public class MainActivity extends AppCompatActivity {
 }
 ```
 ## CLIENT SIDE PROGRAM:
+## IcolorService aidl
+```
+// IColorService.aidl
+package com.example.aidlserver;
+
+// Declare any non-default types here with import statements
+
+interface IColorService {
+    /**
+     * Demonstrates some basic types that you can use as parameters
+     * and return values in AIDL.
+     */
+    int getRandomColor();
+}
+
+```
 ## Main activity 
 ```
 package com.example.aidlclient;
@@ -218,6 +234,9 @@ public class MainActivity extends AppCompatActivity {
 ```
 ## OUTPUT
 
+<img width="1716" height="1062" alt="image" src="https://github.com/user-attachments/assets/85662baf-d06c-4e37-85d6-9356ca9fcc9a" />
+
+<img width="1721" height="1068" alt="image" src="https://github.com/user-attachments/assets/e31d32d9-ca29-4ef9-bf8b-753211d837dd" />
 
 
 
